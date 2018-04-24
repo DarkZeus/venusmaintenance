@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font: 14px/24px Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+.loader-text {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 10;
+  background-color: #333;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+}
+#wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: background-image 1s;
+  -o-transition: background-image 1s;
+  transition: background-image 1s;
+}
+#wrapper .slideshow {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+#wrapper .actions {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+#wrapper .actions .logo {
+  display: block;
+  background-image: url("../img/logo.png");
+  margin-bottom: 98px;
+  -webkit-transition: background-image 0.2s;
+  -o-transition: background-image 0.2s;
+  transition: background-image 0.2s;
+}
+#wrapper .actions .vk-button {
+  display: block;
+  height: 61px;
+  width: 384px;
+  background-image: url("../img/vk-button.png");
+  background-repeat: no-repeat;
+  -webkit-transition: background-image 0.2s;
+  -o-transition: background-image 0.2s;
+  transition: background-image 0.2s;
+}
+#wrapper .actions .vk-button:hover {
+  background-image: url("../img/vk-button-hover.png");
+}
