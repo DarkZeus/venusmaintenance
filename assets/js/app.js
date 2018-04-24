@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 
   var audio = document.getElementsByTagName('audio')[0];
-  audio.volume = 0.25;
+  audio.volume = 0.15;
   audio.play();
 
   function preloadImages(array) {
